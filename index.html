@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konsultasi Dokter Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="hero">
+            <div class="hero-overlay" style="position: relative;">
+            <h1>KONSULTASI ONLINE</h1>
+        
+            <a href="login.html" class="btn-outline" style="position: absolute; top: 20px; right: 20px; color: white; border-color: white; text-decoration: none; padding: 5px 15px; border-radius: 5px;">
+            Logout
+            </a>
+            </div>
+        </header>
+        <section class="content">
+            <h2>Selamat Datang di Konsultasi Dokter Online</h2>
+            
+            <h3>Jadwal Dokter Hari Ini : </h3>
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>No</th>
+                            <th>Spesialisasi</th>
+                            <th>Nama Dokter & Jadwal</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Dokter Umum</td>
+                            <td>Dr. Andi Pratama (08:00 - 12:00), Dr. Siti Aminah (13:00 - 17:00)</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Spesialis Anak</td>
+                            <td>Dr. Budi Santoso (10:00 - 15:00), Dr. Maya Sari (18:00 - 21:00)</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Kesehatan Mental</td>
+                            <td>Psikolog Rina Wati (09:00 - 16:00)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+            <h3>Layanan Unggulan Kami</h3>
+            <div class="list-container">
+                <ul>
+                    <li>Konsultasi Video Call Real-time</li>
+                    <li>Resep Digital & Pengantaran Obat</li>
+                    <li>Rekam Medis Terintegrasi</li>
+                </ul>
+            </div>
+
+            <div class="form-card">
+                <h3>Daftar Konsultasi Sekarang</h3>
+                <p>Masukkan nama Anda untuk memulai antrean:</p>
+                <form id="consultationForm">
+                    <input type="text" id="patientName" placeholder="Contoh: Siti Rahmawati" required>
+                    <button type="submit" class="btn-submit">Mulai Konsultasi</button>
+                </form>
+                <div id="welcomeMessage" class="hidden"></div>
+            </div>
+        </section>
+
+<h3 class="section-title-center">Dapatkan Informasi Seputar Kesehatan</h3>
+<div class="article-grid">
+    <div class="article-card">
+        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=400&q=80" alt="Diet">
+        <div class="article-badge">Kesehatan</div>
+        <div class="article-info">
+            <h4>GLP-1 Jadi Fenomena Baru Obat Penurun Berat Badan</h4>
+            <p class="date">04 Mar 2026</p>
+        </div>
+    </div>
+    <div class="article-card">
+        <img src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=400&q=80" alt="Obat">
+        <div class="article-badge">Kesehatan</div>
+        <div class="article-info">
+            <h4>Puasa Tapi Harus Minum Obat Rutin? Begini Strateginya</h4>
+            <p class="date">26 Feb 2026</p>
+        </div>
+    </div>
+    <div class="article-card">
+        <img src="https://awsimages.detik.net.id/community/media/visual/2023/06/07/ilustrasi-virus_169.jpeg?w=1200" alt="Virus">
+        <div class="article-badge">Kesehatan</div>
+        <div class="article-info">
+            <h4>Waspada dan Konsultasikan Gejala Meski Virus Nipah Belum Masuk</h4>
+            <p class="date">06 Feb 2026</p>
+        </div>
+    </div>
+</div>
+
+<div class="center-btn">
+    <a href="https://kemkes.go.id/id/category/artikel-kesehatan" class="btn-outline"> Lihat Semua Artikel</a>
+</div>
+
+        <h3 class="section-title-center">Fitur Lainnya</h3>
+<div class="features-grid">
+    <div class="feature-item">
+        <div class="icon-circle bg-red">📞</div>
+        <h4>Panggilan Darurat</h4>
+        <p>Layanan call center 24 jam untuk bantuan medis mendadak.</p>
+    </div>
+    <div class="feature-item">
+        <div class="icon-circle bg-green">📩</div>
+        <h4>Kotak Masuk</h4>
+        <p>Berbagai promo menarik dari mitra kesehatan untuk Anda.</p>
+    </div>
+    <div class="feature-item">
+        <div class="icon-circle bg-blue">📍</div>
+        <h4>Terdekat</h4>
+        <p>Cari lokasi rumah sakit, apotek, dan lab di sekitar Anda.</p>
+    </div>
+    <div class="feature-item">
+        <div class="icon-circle bg-brown">💡</div>
+        <h4>Artikel Sehat</h4>
+        <p>Informasi edukatif tentang gaya hidup sehat dan olahraga.</p>
+    </div>
+</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
